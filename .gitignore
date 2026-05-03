@@ -1,0 +1,42 @@
+# Credentials — NEVER commit API keys or secrets
+credentials.json
+*.json
+!sample_data/*.json
+
+# Environment
+.env
+*.env.local
+
+# Output files — contain contact PII
+output/
+*.csv
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
